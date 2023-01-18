@@ -145,7 +145,7 @@ color: rgb(255, 255, 255);
    <property name="geometry">
     <rect>
      <x>105</x>
-     <y>58</y>
+     <y>100</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -154,7 +154,7 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -327,7 +327,7 @@ color: rgb(255, 255, 255);
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>368</y>
+     <y>400</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -336,7 +336,7 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_27">
@@ -383,7 +383,7 @@ color: rgb(255, 255, 255);
    <property name="geometry">
     <rect>
      <x>78</x>
-     <y>58</y>
+     <y>100</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -392,14 +392,14 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="lblp2_1">
    <property name="geometry">
     <rect>
      <x>78</x>
-     <y>368</y>
+     <y>400</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -408,14 +408,14 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="lblp2_3">
    <property name="geometry">
     <rect>
      <x>132</x>
-     <y>368</y>
+     <y>400</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -424,7 +424,7 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_25">
@@ -735,7 +735,7 @@ color: rgb(255, 255, 255);
    <property name="geometry">
     <rect>
      <x>160</x>
-     <y>58</y>
+     <y>100</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -744,7 +744,7 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
   <widget class="QPushButton" name="btn_16">
@@ -831,7 +831,7 @@ color: rgb(255, 255, 255);
    <property name="geometry">
     <rect>
      <x>132</x>
-     <y>58</y>
+     <y>100</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -840,14 +840,14 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
   <widget class="QLabel" name="lblp2_2">
    <property name="geometry">
     <rect>
      <x>105</x>
-     <y>368</y>
+     <y>400</y>
      <width>160</width>
      <height>135</height>
     </rect>
@@ -856,10 +856,10 @@ color: rgb(255, 255, 255);
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap>../icons/variouscard.png</pixmap>
+    <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnReset">
+  <widget class="QPushButton" name="btnResets">
    <property name="geometry">
     <rect>
      <x>940</x>
@@ -884,6 +884,81 @@ color: rgb(255, 255, 255);
     <string>RESET</string>
    </property>
   </widget>
+  <widget class="QPushButton" name="btnSecondPlayer">
+   <property name="geometry">
+    <rect>
+     <x>79</x>
+     <y>650</y>
+     <width>271</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>22</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 25px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>Join 2° Player</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReset">
+   <property name="geometry">
+    <rect>
+     <x>144</x>
+     <y>340</y>
+     <width>131</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 20px; 
+background-color: rgb(52, 59, 72);
+color: rgb(255, 255, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>RESET</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnReset_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>10</y>
+     <width>271</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>32</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border: 2px solid rgb(52, 59, 72);
+border-radius: 35px; 
+background-color: rgb(52, 59, 132);
+color: rgb(255, 205, 105);
+</string>
+   </property>
+   <property name="text">
+    <string>Player 1 Turn</string>
+   </property>
+  </widget>
   <zorder>lblBackground</zorder>
   <zorder>btn_2</zorder>
   <zorder>btn_7</zorder>
@@ -891,13 +966,11 @@ color: rgb(255, 255, 255);
   <zorder>btn_28</zorder>
   <zorder>btn_17</zorder>
   <zorder>label_2</zorder>
-  <zorder>lblPlayer1Points</zorder>
   <zorder>btn_18</zorder>
   <zorder>btn_4</zorder>
   <zorder>btn_12</zorder>
   <zorder>btn_19</zorder>
   <zorder>btn_1</zorder>
-  <zorder>label</zorder>
   <zorder>btn_27</zorder>
   <zorder>btn_8</zorder>
   <zorder>lblp1_1</zorder>
@@ -927,7 +1000,12 @@ color: rgb(255, 255, 255);
   <zorder>lblp1_2</zorder>
   <zorder>lblp1_3</zorder>
   <zorder>lblp1_4</zorder>
+  <zorder>btnResets</zorder>
+  <zorder>btnSecondPlayer</zorder>
   <zorder>btnReset</zorder>
+  <zorder>label</zorder>
+  <zorder>lblPlayer1Points</zorder>
+  <zorder>btnReset_2</zorder>
  </widget>
  <resources/>
  <connections/>
