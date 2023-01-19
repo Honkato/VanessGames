@@ -1,5 +1,6 @@
 import sys
 
+import winsound
 from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton, QLabel
 from PyQt5 import uic
@@ -15,9 +16,9 @@ class Menu(QMainWindow):
     def __init__(self):
         super(Menu, self).__init__()
         uic.loadUi("../archives/telasUI/menuPrincipalUI.ui", self)
-
         # DEFINING OBJECTS
         self.background = self.findChild(QLabel, "lblbackground")
+        winsound.PlaySound("../archives/musicsSongs/opening.wav", winsound.SND_ASYNC)
 
         self.gif = QMovie("../gifMenu/MenuPy.gif")
         self.background.setMovie(self.gif)
@@ -25,7 +26,7 @@ class Menu(QMainWindow):
 
         self.timer = QTimer()
         self.timer.timeout.connect(self.time)
-        self.timer.start(5900)
+        self.timer.start(1500)
 
         self.btnHangman = self.findChild(QPushButton, "btnHangman")
         self.btnHash = self.findChild(QPushButton, "btnHash")

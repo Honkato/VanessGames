@@ -1,6 +1,7 @@
 import random
 import sys
 
+import winsound
 from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QMainWindow, QWidget, QApplication, QPushButton, QLineEdit, QLabel
 from PyQt5 import uic, QtGui
@@ -10,6 +11,7 @@ class JokenpoGame(QWidget):
     def __init__(self):
         super(JokenpoGame, self).__init__()
         uic.loadUi("../archives/telasUI/pptUIWidget.ui", self)
+        winsound.PlaySound("../archives/musicsSongs/dragonslayerArmour.wav", winsound.SND_ASYNC)
         # self.background = self.findChild(QLabel, "lblBackground")
         self.btnStart = self.findChild(QPushButton, "btnStart")
         self.btnReset = self.findChild(QPushButton, "btnReset")

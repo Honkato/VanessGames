@@ -859,31 +859,6 @@ color: rgb(255, 255, 255);
     <pixmap>../icons/variouscards.png</pixmap>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnResets">
-   <property name="geometry">
-    <rect>
-     <x>940</x>
-     <y>571</y>
-     <width>271</width>
-     <height>132</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>32</pointsize>
-    </font>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">border: 2px solid rgb(52, 59, 72);
-border-radius: 35px; 
-background-color: rgb(52, 59, 72);
-color: rgb(255, 255, 255);
-</string>
-   </property>
-   <property name="text">
-    <string>RESET</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="btnSecondPlayer">
    <property name="geometry">
     <rect>
@@ -934,7 +909,7 @@ color: rgb(255, 255, 255);
     <string>RESET</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="btnReset_2">
+  <widget class="QLabel" name="lblTurn">
    <property name="geometry">
     <rect>
      <x>80</x>
@@ -945,18 +920,20 @@ color: rgb(255, 255, 255);
    </property>
    <property name="font">
     <font>
-     <pointsize>32</pointsize>
+     <pointsize>31</pointsize>
     </font>
    </property>
    <property name="styleSheet">
     <string notr="true">border: 2px solid rgb(52, 59, 72);
 border-radius: 35px; 
 background-color: rgb(52, 59, 132);
-color: rgb(255, 205, 105);
-</string>
+color: rgb(255, 205, 105);</string>
    </property>
    <property name="text">
     <string>Player 1 Turn</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
    </property>
   </widget>
   <zorder>lblBackground</zorder>
@@ -1000,12 +977,11 @@ color: rgb(255, 205, 105);
   <zorder>lblp1_2</zorder>
   <zorder>lblp1_3</zorder>
   <zorder>lblp1_4</zorder>
-  <zorder>btnResets</zorder>
   <zorder>btnSecondPlayer</zorder>
   <zorder>btnReset</zorder>
   <zorder>label</zorder>
   <zorder>lblPlayer1Points</zorder>
-  <zorder>btnReset_2</zorder>
+  <zorder>lblTurn</zorder>
  </widget>
  <resources/>
  <connections/>

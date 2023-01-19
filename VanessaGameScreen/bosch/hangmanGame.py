@@ -1,6 +1,7 @@
 import random
 import sys
 
+import winsound
 from PyQt5.QtCore import QTimer
 from PyQt5.QtWidgets import QMainWindow, QWidget, QApplication, QPushButton, QLineEdit, QLabel
 from PyQt5 import uic, QtGui
@@ -13,6 +14,7 @@ class HangmanGame(QWidget):
     def __init__(self):
         super(HangmanGame, self).__init__()
         uic.loadUi("../archives/telasUI/forcaUIWidget.ui", self)
+        winsound.PlaySound("../archives/musicsSongs/curseRotted.wav", winsound.SND_ASYNC)
 
         self.background = self.findChild(QLabel, "lblBackground")
         self.btnConfirm = self.findChild(QPushButton, "btnConfirm")

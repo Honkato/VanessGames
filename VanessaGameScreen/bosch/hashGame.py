@@ -1,5 +1,6 @@
 import sys
 
+import winsound
 from PyQt5.QtWidgets import QMainWindow, QWidget, QApplication, QPushButton, QLineEdit, QLabel
 from PyQt5 import uic, QtGui
 
@@ -8,6 +9,7 @@ class HashGame(QWidget):
     def __init__(self):
         super(HashGame, self).__init__()
         uic.loadUi("../archives/telasUI/velhaUIWidget.ui", self)
+        winsound.PlaySound("../archives/musicsSongs/premonition.wav", winsound.SND_ASYNC)
 
         # DEFINING OBJECTS
         self.btn = [0, 0, 0, 0, 0, 0, 0, 0, 0]
